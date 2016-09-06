@@ -18,7 +18,7 @@ module Postcodes
     private
 
     def remove_whitespace(string)
-      string.gsub(/\s+/, '')
+      string.to_s.gsub(/\s+/, '')
     end
 
   end
